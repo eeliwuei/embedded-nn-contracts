@@ -17,7 +17,7 @@ experiments on STM32 microcontrollers and Raspberry Pi edge devices.
 - Proprietary firmware blobs.
 - Raw private server logs.
 - Personal paths, SSH settings, board serials, or tokens.
-- Publication source files.
+- Non-code document source files.
 
 ## Quick start
 
@@ -32,6 +32,6 @@ make figures
 
 CI validation does not require hardware.
 
-## Repository setup
+## Validation
 
-See `docs/PRIVATE_GITHUB_SETUP.md` for private repository setup.
+Run `make validate` before using regenerated tables or figures.
