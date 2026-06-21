@@ -1,0 +1,13 @@
+board,board_label,model,model_label,runtime,throughput_inf_sec,latency_ms,accuracy,status,note
+f746,STM32 F746,kws,KWS / DS-CNN,cmsis_nn_release_plus_ofast,26.652,37.520,Top1 90.1 / AUC 0.995,retained,F746 conservative retained release baseline.
+f746,STM32 F746,vww,VWW / MobileNetV1,vww_early_dw_pw_stream_checked,8.386,119.246,Top1 85.8 / AUC 0.937,retained,Latest manual/retained truth; replaces older 8.290 hotspot2 retained candidate.
+f746,STM32 F746,ic,IC / ResNet-8,cmsis_nn_release_plus_ofast,6.859,145.794,Top1 87.5 / AUC 0.988,retained,IC custom direct conv/add and static schedule attempts dropped.
+f746,STM32 F746,ad,AD / Deep AutoEncoder,ad_static_schedule_direct_cmsis_s8_unchecked,396.286,2.523,Top1 78.1 / AUC 0.862,retained,Deep static-schedule breakthrough; current strongest STM32/ST-comparable result.
+u575,STM32 U575,kws,KWS / DS-CNN,stm32ai_prebuilt_v1.3_st,34.489,28.995,Top1 90.2 / AUC 0.995,prebuilt_oracle_only,Source route blocked by missing real CM33/U5 runtime bundle.
+u575,STM32 U575,vww,VWW / MobileNetV1,stm32ai_prebuilt_v1.3_st,16.873,59.266,Top1 85.6 / AUC 0.937,prebuilt_oracle_only,Source route blocked by missing real CM33/U5 runtime bundle.
+u575,STM32 U575,ic,IC / ResNet-8,stm32ai_prebuilt_v1.3_st,9.133,109.493,Top1 87.0 / AUC 0.988,prebuilt_oracle_only,Source route blocked by missing real CM33/U5 runtime bundle.
+u575,STM32 U575,ad,AD / Deep AutoEncoder,stm32ai_prebuilt_v1.3_st,311.579,3.209,Top1 77.8 / AUC 0.862,prebuilt_oracle_only,Source route blocked by missing real CM33/U5 runtime bundle.
+g0,STM32 G0,kws,KWS / DS-CNN,cmsis_nn_latency_rescue_128k_align16,0.169,5917,not_run_noncompetitive_latency,dropped_noncompetitive,SRAM/feature-chain/DSP-less fallback; not a retained release route.
+g0,STM32 G0,vww,VWW / MobileNetV1,cmsis_nn_feasibility_only,not_run,-,not_run,infeasible_on_board,No clean SRAM/flash fit evidence; lower priority than G0 AD.
+g0,STM32 G0,ic,IC / ResNet-8,cmsis_nn_feasibility_only,not_run,-,not_run,infeasible_on_board,IC resource demand exceeds feasible G0 route.
+g0,STM32 G0,ad,AD / Deep AutoEncoder,cmsis_nn_newer_mbed_trial,330.971,3.021,Top1 78.1 / AUC 0.862,retained,G0 AD retained path.

@@ -1,0 +1,19 @@
+RETAINED = "retained"
+AGGRESSIVE_RETAINED = "aggressive_retained"
+MICRO_CANDIDATE = "micro_candidate"
+DROPPED_NONCOMPETITIVE = "dropped_noncompetitive"
+PREBUILT_ORACLE_ONLY = "prebuilt_oracle_only"
+BLOCKED_MISSING_RUNTIME_BUNDLE = "blocked_missing_runtime_bundle"
+INFEASIBLE_ON_BOARD = "infeasible_on_board"
+SOURCE_FUNCTIONAL_BUT_SLOW = "source_functional_but_slow"
+
+VALID_STATUSES = {
+    RETAINED,
+    AGGRESSIVE_RETAINED,
+    MICRO_CANDIDATE,
+    DROPPED_NONCOMPETITIVE,
+    PREBUILT_ORACLE_ONLY,
+    BLOCKED_MISSING_RUNTIME_BUNDLE,
+    INFEASIBLE_ON_BOARD,
+    SOURCE_FUNCTIONAL_BUT_SLOW,
+}

@@ -1,0 +1,5 @@
+board,model,canonical_throughput_inf_sec,replay_mean_inf_sec,n,sd_inf_sec,cv_percent,note
+f746,ad,396.286,396.314,10,0.020,0.005,Independent replay mean documented separately from frozen canonical value.
+f746,vww,8.386,,,,,Final retained in frozen table; per-run variance not preserved in the public frozen table.
+f746,kws,26.652,,,,,Frozen retained value.
+f746,ic,6.859,,,,,Frozen retained value.

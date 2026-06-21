@@ -1,0 +1,9 @@
+board,model,backend,metric,baseline_ncnn_vulkan_total_ms,frozen_core_e2e_ms,decision,coverage,evidence_path,note
+pi5,yolo11n,ncnn_vulkan,latency_ms,81.61792,75.590991,no_retained_ncnn_vulkan_path,baseline  / active Vulkan layers 91 -> 168,02_evidence_raw/local_pi5/pi5_phase_vk_reports_20260404/phase_vk_summary.csv,Raspberry Pi 5 supplemental edge experiment; not MLPerf Tiny/STM32 comparable.
+pi5,yolo11s,ncnn_vulkan,latency_ms,154.490601,153.213257,no_retained_ncnn_vulkan_path,baseline  / active Vulkan layers 91 -> 168,02_evidence_raw/local_pi5/pi5_phase_vk_reports_20260404/phase_vk_summary.csv,Raspberry Pi 5 supplemental edge experiment; not MLPerf Tiny/STM32 comparable.
+pi5,yolo11m,cpu_or_default,core_e2e_ms,,,none,,02_evidence_raw/local_pi5/pi5_phase_vk_reports_20260404/final_model_compare.md,"Pi5 model compare, scope=dropped, family=yolo11, improvement_pct="
+pi5,yolo11n,cpu_or_default,core_e2e_ms,,75.590991,none,,02_evidence_raw/local_pi5/pi5_phase_vk_reports_20260404/final_model_compare.md,"Pi5 model compare, scope=active, family=yolo11, improvement_pct=9.005101"
+pi5,yolo11s,cpu_or_default,core_e2e_ms,,153.213257,none,,02_evidence_raw/local_pi5/pi5_phase_vk_reports_20260404/final_model_compare.md,"Pi5 model compare, scope=active, family=yolo11, improvement_pct=53.884525"
+pi5,yolo26m,cpu_or_default,core_e2e_ms,,,none,,02_evidence_raw/local_pi5/pi5_phase_vk_reports_20260404/final_model_compare.md,"Pi5 model compare, scope=dropped, family=yolo26, improvement_pct="
+pi5,yolo26n,cpu_or_default,core_e2e_ms,,71.568197,none,,02_evidence_raw/local_pi5/pi5_phase_vk_reports_20260404/final_model_compare.md,"Pi5 model compare, scope=active, family=yolo26, improvement_pct=2.111325"
+pi5,yolo26s,cpu_or_default,core_e2e_ms,,170.154712,none,,02_evidence_raw/local_pi5/pi5_phase_vk_reports_20260404/final_model_compare.md,"Pi5 model compare, scope=active, family=yolo26, improvement_pct=1.470612"

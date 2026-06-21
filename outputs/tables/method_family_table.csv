@@ -1,0 +1,14 @@
+method_family,success_or_retained,failure_or_drop,neutral_or_pending,interpretation
+arena_reuse,10,35,116,Direct aliasing of TFLM tensor storage was unsafe; future work requires coherent planner-level arena changes.
+cmsis_nn_ofast,175,105,97,"F746 KWS/IC retained baseline. Useful as conservative, reproducible baseline, but insufficient for VWW/AD breakthroughs alone."
+early_stream_fusion,8,30,49,Effective for VWW when implemented as narrow row-stream DW+PW; broader full-block coupling was slower.
+fixed_shape_codegen,87,65,102,Produced VWW and KWS aggressive candidates; many isolated tail/late hotspot variants dropped below latest retained.
+g0_sram_rescue,16,30,240,"G0 AD retained; G0 KWS is noncompetitive, VWW/IC infeasible under current evidence."
+lowbit_int4,24,40,153,Selective low-bit/int4 experiments were executable but generally not retained; packed kernel and scheduling are required.
+no_log_monitor,2,0,10,Evidence captured in ledgers; see source rows for detailed decisions.
+operator_autotune,6,5,11,Evidence captured in ledgers; see source rows for detailed decisions.
+other,79,34,613,Evidence captured in ledgers; see source rows for detailed decisions.
+public_comparison,61,49,481,Evidence captured in ledgers; see source rows for detailed decisions.
+residual_coupled,8,25,19,IC direct conv/add fast path had speed hints but failed accuracy/smoke; must preserve runtime tensor/quantization assumptions.
+static_schedule,35,23,228,"Highly effective for AD, not beneficial for IC wrapper-preserving schedule or older VWW hotspot2 static schedule."
+u575_runtime_recovery,0,42,2554,U575 host/oracle path is ready but source route is blocked by missing external CM33/U5 runtime bundle.

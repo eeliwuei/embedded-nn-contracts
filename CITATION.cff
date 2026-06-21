@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Embedded NN Contracts"
+message: "If you use this repository, cite the software release."
+type: software
+authors:
+  - family-names: "Lee"
+    given-names: "Yuwi"
+version: "v0.1.0-private-freeze"
+repository-code: "https://github.com/eeliwuei/embedded-nn-contracts"
+license: "MIT"

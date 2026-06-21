@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-06-08T16:37:26+09:00",
+  "evidence_file_count": 821,
+  "master_row_count": 4610,
+  "failure_row_count": 338,
+  "success_row_count": 367,
+  "raspberry_pi_row_count": 8,
+  "method_family_counts": {
+    "other": {
+      "success_or_retained": 79,
+      "failure_or_drop": 34,
+      "neutral_or_pending": 613
+    },
+    "operator_autotune": {
+      "success_or_retained": 6,
+      "neutral_or_pending": 11,
+      "failure_or_drop": 5
+    },
+    "early_stream_fusion": {
+      "neutral_or_pending": 49,
+      "failure_or_drop": 30,
+      "success_or_retained": 8
+    },
+    "cmsis_nn_ofast": {
+      "neutral_or_pending": 97,
+      "failure_or_drop": 105,
+      "success_or_retained": 175
+    },
+    "fixed_shape_codegen": {
+      "success_or_retained": 87,
+      "neutral_or_pending": 102,
+      "failure_or_drop": 65
+    },
+    "residual_coupled": {
+      "failure_or_drop": 25,
+      "neutral_or_pending": 19,
+      "success_or_retained": 8
+    },
+    "public_comparison": {
+      "neutral_or_pending": 481,
+      "failure_or_drop": 49,
+      "success_or_retained": 61
+    },
+    "static_schedule": {
+      "success_or_retained": 35,
+      "failure_or_drop": 23,
+      "neutral_or_pending": 228
+    },
+    "lowbit_int4": {
+      "failure_or_drop": 40,
+      "neutral_or_pending": 153,
+      "success_or_retained": 24
+    },
+    "g0_sram_rescue": {
+      "success_or_retained": 16,
+      "neutral_or_pending": 240,
+      "failure_or_drop": 30
+    },
+    "no_log_monitor": {
+      "neutral_or_pending": 10,
+      "success_or_retained": 2
+    },
+    "arena_reuse": {
+      "neutral_or_pending": 116,
+      "success_or_retained": 10,
+      "failure_or_drop": 35
+    },
+    "u575_runtime_recovery": {
+      "failure_or_drop": 42,
+      "neutral_or_pending": 2554
+    }
+  }
+}

@@ -1,0 +1,8 @@
+Data License
+
+The sanitized CSV/JSON tables in `data/frozen_tables/` are intended for
+reproducibility review and research use. Public third-party baseline rows
+retain their original upstream citation requirements.
+
+Vendor runtime binaries, proprietary firmware, and private raw logs are not
+included in this repository.

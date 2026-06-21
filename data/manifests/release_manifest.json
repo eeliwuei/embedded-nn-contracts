@@ -1,0 +1,22 @@
+{
+  "name": "embedded-nn-contracts",
+  "version": "0.1.0-private-freeze",
+  "tables": [
+    "all_board_model_results.csv",
+    "experiment_failure_ledger.csv",
+    "experiment_method_ledger.csv",
+    "experiment_success_retained_ledger.csv",
+    "mlperf_public_results_matrix.csv",
+    "public_baseline_compare.csv",
+    "raspberry_pi_supplement_results.csv",
+    "summary_counts.json"
+  ],
+  "excluded": [
+    "raw private logs",
+    "vendor runtime binaries",
+    "firmware blobs",
+    "publication source files",
+    "private notes",
+    "personal paths"
+  ]
+}
